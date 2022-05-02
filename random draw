@@ -1,0 +1,8 @@
+from random import choice
+p = str(input('Informe o nome do primeiro aluno: '))
+s = str(input('Informe o nome do segundo aluno: '))
+t = str(input('Informe o nome do terceiro aluno: '))
+q = str(input('Informe o nome do quarto aluno: '))
+nam = (p, s, t, q)
+sort = choice(nam)
+print('O aluno sorteado é: {}'.format(sort))
