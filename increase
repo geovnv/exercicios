@@ -1,0 +1,4 @@
+si = float(input('Digite o salário do funcionário: R$ '))
+a = si * 0.13
+sf = si + a
+print('O salário de R${:.2f} recebendo um aumento de 13% ficará R${:.2f}'.format(si, sf))
